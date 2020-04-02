@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:     VK IE Alert
- * Plugin URI:      
+ * Plugin URI:      https://github.com/vektor-inc/vk-ie-alert
  * Description:     
  * Author:          Vektor,Inc.
  * Author URI:      
@@ -12,7 +12,10 @@
  * @package         Vk_Ie_Alert
  */
 
-// Your code starts here.
+/*
+Special Thanks @ddryo_loos
+https://wemo.tech/1611
+*/
 
 function iea_is_IE() {
     $ua = mb_strtolower( $_SERVER['HTTP_USER_AGENT'] );  //すべて小文字にしてユーザーエージェントを取得
