@@ -8,7 +8,9 @@
  * Text Domain:     vk-ie-alert
  * Domain Path:     /languages
  * Version:         0.1.0
- *
+ * License: 		GNU General Public License v2 or later
+ * License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+ * 
  * @package         Vk_Ie_Alert
  */
 
@@ -64,3 +66,5 @@ function iea_insert_alert(){
 		echo iea_get_alert_html();
 	}
 }
+
+function 
