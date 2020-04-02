@@ -66,5 +66,3 @@ function iea_insert_alert(){
 		echo iea_get_alert_html();
 	}
 }
-
-function 
